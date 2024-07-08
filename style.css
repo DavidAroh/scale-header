@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(20, 20, 20, 1);
+    font-family: space grotesk;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.logo img{
+    position: absolute;
+    left: 10%;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    left: 20%;
+    color: white;
+}
+.last button{
+    border-radius: 5px;
+    background: #FFFFFF;
+    display: flex;
+    padding: 12px 17px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    overflow-wrap: break-word;
+    font-family: space grotesk;
+    font-weight: 400;
+    font-size: 16px;
+    color: #141414;
+}
+.login{
+    align-content: center;
+}
+.col{
+    color: rgba(135, 135, 135, 1);
+}
+
+.content h1{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+.content{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.info p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.333;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.info button{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid white ;
+    background: #FFFFFF;
+    padding: 12px 0;
+    width: 129px;
+    box-sizing: border-box;
+}
+.last2{
+    margin-top: 10%;
+}
+.companies{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.last2 p{
+    color: rgba(135, 135, 135, 1);
+    margin-bottom: 3%;
+}
+.diver img{
+    display: flex;
+    align-content: center;
+    width: 143%;
+    position: relative;
+    right: 60%;
+    bottom: 19%;
+    animation: float 3s ease-out infinite;
+    /* transform: translate(-60%, -19% ); */
+}
+@keyframes float {
+  50%{
+    transform: translateY(50px);
+  }  
+}
